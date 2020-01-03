@@ -1,0 +1,11 @@
+import com.example.sqldelightcrash.Id;
+
+CREATE TABLE User(
+  id TEXT AS Id
+);
+
+insert:
+INSERT INTO User(id) VALUES (:id);
+
+select:
+SELECT * FROM User;
